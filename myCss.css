@@ -1,0 +1,305 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: #6500ca;
+  
+}
+.najpoznatija{
+    border: 1px solid black;
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    box-shadow: 25px 10px 25px black;
+    display: flex;
+ 
+    
+}
+.tekstdesno{
+   margin-left: 90px;
+}
+.container{
+  background-color:#6500ca;
+    height: 2000px;
+}
+.mojnav{
+    display: flex;
+    justify-content: center;
+    background-color: #F5F5F5;
+    color: black;
+    height:7vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+   
+}
+.mojnav h1{
+  margin-left: 21px;
+   
+}
+
+.dvaReda{
+  
+    width: 100%;
+    height: 60vh;
+   
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1F1F1F;
+  
+}
+.dvaReda h1{
+    color: white;
+}
+
+.slika{
+    background-image: url("https://img.besthqwallpapers.com/Uploads/31-10-2017/26390/charlie-sheen-carlos-irwin-estevez-american-actor-4k-portrait.jpg");
+ width: 100vh;
+ height: 500px;
+ opacity: 2.50;
+margin-top: 5%;
+
+ box-shadow: 10px 10px 15px black;
+ background-size: cover;
+ background-position:top;
+}
+.slikaLijevo{
+    display: flex;
+    justify-content: left;
+    overflow-x: hidden;
+    margin-left: 1%;
+
+}
+.textLijevo{
+ display: flex;
+ justify-content: left;
+ align-items: center;
+ margin-bottom: 4%;
+ font-size: x-large;
+}
+.dugme{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.dugme button{
+    
+    width: 250px;
+    height: 50px;
+    border-radius: 10vw;
+    border: none;
+    background-color: #8300F5;
+    color: white;
+    font-size: larger;
+}
+.dugme button:hover{
+    opacity: 0.50;
+}
+
+.Kartice{
+    border: 1px solid black;
+    height: 700px;
+    width: 100%;
+    background-color: #6500ca;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 25px 10px 25px black;
+    
+}
+
+.kutija{
+
+width: 500px;
+height: 400px;
+background: #1F1F1F;;
+border: 1px solid black;
+box-shadow: 15px 10px 15px black;
+}
+
+
+.ikona{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 22px;
+}
+.naslov{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+text-align: center;
+    margin-left: 2px;
+}
+.slika2{
+    width: 800px;
+    height: 600px;
+    background-image: url("https://ilarge.lisimg.com/image/1109756/800full-hot-shots%21-part-deux-screenshot.jpg");
+    margin-left: 5px;
+    background-position-x: 69%;
+    background-repeat: no-repeat;
+    margin-top: 2px;
+}
+
+@media screen and (max-width: 480px) {
+.dvaReda{
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+}
+ .textLijevo{
+  text-align: center;
+ }  
+ .slika{
+    background-image: url("https://img.besthqwallpapers.com/Uploads/31-10-2017/26390/charlie-sheen-carlos-irwin-estevez-american-actor-4k-portrait.jpg");
+ width: 100vh;
+ height: 500px;
+ opacity: 2.50;
+margin-top: 5%;
+
+ box-shadow: 10px 10px 15px black;
+ background-size: cover;
+ background-position:top;
+ background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+  background-size: cover;
+}
+ 
+.slika2{
+    width: 200px;
+    height: 200px;
+    background-image: url("https://ilarge.lisimg.com/image/1109756/800full-hot-shots%21-part-deux-screenshot.jpg");
+    margin-left: 5px;
+    
+    background-repeat: no-repeat;
+    margin-top: 2px;
+    
+    
+}
+.najpoznatija{
+    display: flex;
+    flex-direction: column;
+   
+}
+.tekst2{
+    font-size:12px;
+}
+.Kartice{
+    border: 1px solid black;
+    height: 700px;
+    width: 100%;
+    background-color: #6500ca;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+margin: 2px;
+    box-shadow: 25px 10px 25px black;
+    margin-top: 250px;
+   
+}
+
+.kutija{
+
+width: 100px;
+height: 100px;
+background: #1F1F1F;;
+border: 1px solid black;
+box-shadow: 15px 10px 15px black;
+margin-bottom: 10px;
+margin-top: 10px;
+}
+
+.naslov{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+text-align: center;
+    margin-left: 2px;
+    font-size: 4px;
+}
+
+
+ }
+  
+
+  .tekst2{
+    font-size: x-large;
+    text-align: center;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+  }
+  
+
+  @media screen and (max-width: 1180px) {
+
+    .textLijevo{
+        text-align: center;
+       }  
+  
+.naslov{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+text-align: center;
+    margin-left: 2px;
+    font-size: 8px;
+}
+.dugme button{
+    
+    width: 200px;
+    height: 50px;
+    border-radius: 10vw;
+    border: none;
+    background-color: #8300F5;
+    color: white;
+    font-size: larger;
+}
+
+.kutija{
+
+    width: 300px;
+    height: 300px;
+    background: #1F1F1F;;
+    border: 1px solid black;
+    box-shadow: 15px 10px 15px black;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin: 20px;
+    }
+
+    .slika2{
+        width: 500px;
+        height: 600px;
+        background-image: url("https://ilarge.lisimg.com/image/1109756/800full-hot-shots%21-part-deux-screenshot.jpg");
+        margin-left: 5px;
+        background-position-x:top;
+   ;
+        background-repeat: no-repeat;
+        margin-top: 2px;
+        margin-right: 12px;
+    }
+    .najpoznatija{
+        display: flex;
+       
+    }
+    .tekst2{
+        font-size:12px;
+    }
+  }
